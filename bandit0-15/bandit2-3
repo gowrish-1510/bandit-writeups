@@ -1,0 +1,15 @@
+Question-The password for the next level is stored in a file called spaces in this filename located in the home directory.
+
+commands used:- "ls" and cat "spaced file name" 
+
+1.ls
+To list various files in this directory, we use ls command and a file with name "spaces in this filename" appears to be present.
+
+2. cat " "
+Since the file name has spaces in it, we can't view its contents using cat spaces in this filename as it treats each word as a directory and displays error saying no such directories. To deal with this problem we use cat "spaces in this filename" to view the contents of the file which contains the password.
+ 
+ info:- mkdir "spaced file name" can be used to create a directory which has spaced directory name.
+     :- cd "spaced file name" can be used to come to a directory with spaced name.
+     
+     
+Password:- aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG     

@@ -1,0 +1,11 @@
+Question-The password for the next level is stored in a file called - located in the home directory
+
+commands used:- "ls" and "cat./"
+
+1.ls
+First we use ls commands to list the files and the file we are looking out turns out to have a dashed filename. It is basically a file which has its name starting with a dash.
+
+2. cat./
+Here,to view the contents of the dashed file, we cannot use the usual syntax of "cat -" as it will treat '-' as a special character and wait for user input on the screen. So "cat./-" OR "cat < -" command is used to view the contents of dashed file which contains the password for next level.
+
+password-rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi 

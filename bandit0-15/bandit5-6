@@ -1,0 +1,26 @@
+Question-The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+    human-readable
+    1033 bytes in size
+    not executable
+    
+commands use:- ls , cd, find -size n(n is the size) !-executable , cat
+
+1.ls
+We execute ls to discover a subdirectory called inhere.
+
+2.cd
+We use cd inhere to go to that subdirectory.
+
+3.ls
+When we execute ls, we see that inhere has many subdirectories and it is difficut to manually go to each subdirectory to find a file with above properties.
+
+4.find -size n(n is the size) !-executable
+We execute find -size 1033c ! -executable command in the terminal and the terminal generates a path to that file which is ./maybehere07/.file2
+
+5. cat
+We execute cat ./maybehere07/.file2 to get the password.
+
+password- P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+

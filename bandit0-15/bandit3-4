@@ -1,0 +1,18 @@
+Question-The password for the next level is stored in a hidden file in the inhere directory.
+
+commands used- ls ,cd, ls -a , cat ./
+
+1.ls
+By executing ls, we get to know about the existance of a subdirectory called inhere.
+
+2. cd
+We go the inhere folder by executing cd inhere in terminal.
+
+3. ls -a
+If we type ls to list out files inside inhere, it won't display anything as there is a hidden file. Hence, we use ls -a command which also lists out hidden files in a given directory. Here, the hidden file has the name .hidden .
+
+4.cat ./
+As the filename begins with a special character, we use cat ./.hidden which gives us the password to next level.
+
+password- 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe 
+

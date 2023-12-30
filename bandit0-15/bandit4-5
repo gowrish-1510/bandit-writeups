@@ -1,0 +1,22 @@
+Question- The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+
+commands used- ls , cd , file ./* , cat ./
+
+1.ls
+We execute ls to discover a subdirectory called inhere.
+
+2.cd
+We use cd inhere to go to that subdirectory.
+
+3.ls
+we use ls to list the files present in the subdirectory and we discover 10 files which begin with a special character.
+
+4.file ./*
+We execute file ./* command to find out the type of content in each file to check which among them is human readable.In this process we find that file with name -file07 has ASCII text in it which is human readable.
+
+5. cat ./
+Finally, we execute cat ./-file07 to display the password for the next level.
+
+info- we can use cat * command to display contents of all files present in a given directory.
+
+password- lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR

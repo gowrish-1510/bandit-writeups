@@ -1,0 +1,5 @@
+Command used is SSH. 
+The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution.
+
+to login: ssh bandit0@bandit.overthewire.org -p 2220
+password:NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
