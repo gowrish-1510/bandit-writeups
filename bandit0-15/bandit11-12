@@ -1,0 +1,14 @@
+Question- The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
+
+Commands used:- ls , cat , tr
+
+1.ls
+
+2.cat
+When we do cat data.txt , it displays strings which are rotated by 13 places according to question.
+
+3.Piping of cat and tr command
+The tr command (translate) is used to translate/delete a set of characters. Since we want to change the set [a-z]&[A-Z] to [n-za-m]&[N-ZA-M] the piping goes by as:-
+ cat data.txt | tr a-zA-Z n-za-mN-ZA-M .
+ 
+ password:- JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv

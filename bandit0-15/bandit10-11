@@ -1,0 +1,14 @@
+Question- The password for the next level is stored in the file data.txt, which contains base64 encoded data.
+
+commands used:- ls , cat , base64 -d
+
+1.ls
+
+2.cat
+When we execute cat data.txt , we find the contents of file have a padding of '==' at the end which indicates it is base64 encoded data.
+
+3. base64 -d
+Hence, we execute base64 -d data.txt to decode the password.
+
+password:- 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+

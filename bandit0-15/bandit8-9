@@ -1,0 +1,16 @@
+Question-The password for the next level is stored in the file data.txt and is the only line of text that occurs only once.
+
+commands used- ls , sort , uniq , cat
+
+1.ls
+We use ls command to discover the data.txt file.
+
+2.cat
+We use cat data.txt which displays many lines of strings in which one is never repeating and is our required password.
+
+2.piping the sort and uniq command
+Since sort command does not sort the contents of the original file and the uniq command cannot recognize duplicates if strings are not adjacent, we can't use its properties to find our password. Hence, we use piping concept to combine these both commands to find our password.
+  The command sort data.txt sorts contents of the file and the command uniq -u data.txt command displays the string which is not repeating. Hence, we use piping :- 
+  sort data.txt | uniq -u 
+  
+  password- EN632PlfYiZbn3PhVK3XOGSlNInNE00t
